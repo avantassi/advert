@@ -1,0 +1,113 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html {
+  font-size: 12px; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+ul li {
+  list-style: none; }
+
+p {
+  padding: 0;
+  margin: 0; }
+
+.container {
+  width: 1164px;
+  max-width: 1164px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 568px; } }
+  @media screen and (max-width: 320px) {
+    .container {
+      width: 288px; } }
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.news {
+  margin-top: 100px; }
+  @media screen and (max-width: 320px) {
+    .news {
+      margin-top: 20px; } }
+  .news__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .news__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 273px;
+        flex-basis: 273px;
+    max-width: 273px;
+    position: relative;
+    margin-bottom: 20px;
+    text-decoration: none; }
+  @media screen and (max-width: 320px) {
+    .news__img {
+      max-width: 100px;
+      height: 100px;
+      -o-object-fit: cover;
+         object-fit: cover; } }
+  .news__descr {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    padding: 16px;
+    font-family: 'Open Sans', sans-serif; }
+    @media screen and (max-width: 320px) {
+      .news__descr {
+        position: static;
+        color: #333333;
+        padding: 0 0 0 10px; } }
+  .news__title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px; }
+    @media screen and (max-width: 320px) {
+      .news__title {
+        font-size: 14px; } }
+  .news__text {
+    font-size: 12px; }
+
+/*# sourceMappingURL=main.css.map */
